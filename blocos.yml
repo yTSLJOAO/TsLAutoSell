@@ -1,0 +1,48 @@
+Blocos:
+  Pedra:
+    bloco: "STONE"
+    item: "COBBLESTONE"
+    data: -1
+    Valor: 2
+    Mensagem(ActionBar): "&aVocê quebrou &71x Pedra &a+%valor_adquirido%"
+  Carvao:
+    bloco: "COAL_ORE"
+    item: "COAL"
+    data: -1
+    Valor: 5
+    Mensagem(ActionBar): "&aVocê quebrou &71x Carvão &a+%valor_adquirido%"
+  Ferro:
+    bloco: "IRON_ORE"
+    item: "IRON_ORE"
+    data: -1
+    Valor: 10
+    Mensagem(ActionBar): "&aVocê quebrou &71x Ferro &a+%valor_adquirido%"
+  Ouro:
+    bloco: "GOLD_ORE"
+    item: "GOLD_ORE"
+    data: -1
+    Valor: 15
+    Mensagem(ActionBar): "&aVocê quebrou &71x Ouro &a+%valor_adquirido%"
+  Diamante:
+    bloco: "DIAMOND_ORE"
+    item: "DIAMOND"
+    data: -1
+    Valor: 50
+    Mensagem(ActionBar): "&aVocê quebrou &71x Diamante &a+%valor_adquirido%"
+  Esmeralda:
+    bloco: "EMERALD_ORE"
+    item: "EMERALD"
+    data: -1
+    Valor: 60
+    Mensagem(ActionBar): "&aVocê quebrou &71x Esmeralda &a+%valor_adquirido%"
+
+# Como adicionar um bloco novo:
+# 1. Copie um dos blocos acima (com o mesmo recuo/indentação)
+# 2. Dê um nome único pra ele (a chave, ex: "Lapis")
+# 3. "bloco" = o Material do Bukkit do BLOCO em si (ex: LAPIS_ORE)
+# 4. "item" = o Material do ITEM que realmente dropa ao quebrar (ex: LAPIS_ORE dropa INK_SACK com data 4 no 1.8).
+#    Se o bloco dropar ele mesmo (ex: madeira, terra), pode omitir "item" que ele usa o mesmo valor de "bloco".
+# 5. "data" = data value do BLOCO (use -1 se não precisar diferenciar, ou o valor exato, ex: lã colorida)
+# 6. "Valor" = quanto de dinheiro o jogador recebe por bloco quebrado
+# 7. "Mensagem(ActionBar)" = mensagem mostrada na ActionBar, use %valor_adquirido% pro valor formatado
+
