@@ -1,0 +1,15 @@
+name: TSLAutoSell
+main: com.tslplugins.tslautosell.TSLAutoSell
+version: 1.0.0
+api-version: 1.13
+author: yTSLJOAO
+depend: [Vault]
+commands:
+  autosell:
+    description: Ativa ou desativa o AutoSell
+    usage: /autosell
+permissions:
+  vitalautosell.use:
+    default: true
+  vitalautosell.reload:
+    default: op
