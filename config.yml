@@ -1,0 +1,7 @@
+Geral:
+  AutoSellAtivadoPorPadrao: true
+  FormatoValor: "#,##0.00"
+  MensagemAtivado: "&a[TSLAutoSell] &fAutoSell &aativado&f!"
+  MensagemDesativado: "&a[TSLAutoSell] &fAutoSell &cdesativado&f!"
+  MensagemSemPermissao: "&cVocê não tem permissão para usar este comando."
+  MensagemReload: "&a[TSLAutoSell] &fConfigurações recarregadas com sucesso!"
